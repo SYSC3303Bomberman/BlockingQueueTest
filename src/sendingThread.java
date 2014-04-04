@@ -22,4 +22,4 @@ public class sendingThread extends Thread{
 		}
 	}
 
-}//
+}

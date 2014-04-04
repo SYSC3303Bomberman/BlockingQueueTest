@@ -32,4 +32,4 @@ public class receivingThread extends Thread {
 		System.out.print("\n" + t1 + " items received from t1.");
 		System.out.print("\n" + t2 + " items received from t2.");
 	}
-}//
+}

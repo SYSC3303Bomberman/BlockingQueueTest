@@ -13,7 +13,7 @@ public class sendingThread extends Thread{
 
 	public void run() {
 		try {
-			for(int i=0; i<25; i++){
+			for(int i=0; i<25000; i++){
 				q.put(e);
 			}
 		} catch (InterruptedException e) {

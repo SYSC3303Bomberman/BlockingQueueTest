@@ -31,5 +31,10 @@ public class receivingThread extends Thread {
 		}
 		System.out.print("\n" + t1 + " items received from t1.");
 		System.out.print("\n" + t2 + " items received from t2.");
+		if(q.isEmpty()){
+			System.out.print("\nThis queue has been successfully emptied");
+		}else{
+			System.out.print("\nFAILURE: This queue has not been successfully emptied");
+		}
 	}
 }//
